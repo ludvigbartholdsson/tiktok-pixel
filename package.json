@@ -1,0 +1,24 @@
+{
+  "name": "tiktok-pixel",
+  "version": "0.1.4",
+  "description": "Tiktok pixel",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ludvigbartholdsson/tiktok-pixel"
+  },
+  "homepage": "https://github.com/ludvigbartholdsson/tiktok-pixel",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "test": "jest",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint --fix -c tslint.json 'src/**/*.ts'"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  }
+}
