@@ -1,6 +1,6 @@
 {
   "name": "tiktok-pixel-helper",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Tiktok pixel helper",
   "main": "src/index.ts",
   "types": "src/types/",
