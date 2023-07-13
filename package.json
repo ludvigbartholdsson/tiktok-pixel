@@ -1,7 +1,7 @@
 {
-  "name": "tiktok-pixel",
+  "name": "tiktok-pixel-helper",
   "version": "0.1.4",
-  "description": "Tiktok pixel",
+  "description": "Tiktok pixel helper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {

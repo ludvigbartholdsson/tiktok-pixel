@@ -1,7 +1,7 @@
 # Tiktok pixel helper
 
 Helps you implement tiktok pixel events flawlessly.
-Heavily inspired/copied by/from FBQ-package by Sem Postma.
+Heavily inspired/copied from @ertemishakk but not for React.
 
 ## Install
 
@@ -14,19 +14,12 @@ npm install --save tiktokpixelhelper
 ### Simple usecase
 
 ```javascript
-import { init, track } from "tiktokpixelhelper";
+import TiktokPixel from "tiktokpixelhelper";
 
-init("pixelId");
-track("ViewContent");
-```
+TiktokPixel.init("yourPixelIdGoesHere", debugMode);
 
-### More complex usecase
-
-```javascript
-import { init, track } from "tiktokpixelhelper";
-
-init("pixelId");
-track("ViewContent", {});
+TiktokPixel.pageView(); // For tracking page view
+TiktokPixel.track(event, data); // For tracking default events. More info about standard events: https://ads.tiktok.com/help/article?aid=10028
 ```
 
 ## License
