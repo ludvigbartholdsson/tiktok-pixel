@@ -6,7 +6,7 @@ Heavily inspired/copied from @ertemishakk but not for React.
 ## Install
 
 ```bash
-npm install --save tiktokpixelhelper
+npm install --save tiktok-pixel-helper
 ```
 
 ## Usage
